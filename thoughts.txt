@@ -1,0 +1,15 @@
+first create dictionary 
+
+then write the dictionary and create "books.csv"
+create while loop, while true
+input = do you want to exit
+
+then create input to search book id and quantity
+
+then read dictionary either the quantity <= stock
+ if not then not avaiable
+
+ else write dictionary again and update stock = stock - quantity
+
+ if exit == yes
+ break

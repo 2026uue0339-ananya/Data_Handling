@@ -1,0 +1,16 @@
+import csv
+
+with open("students.csv","w", newline="") as file:
+    writer = csv.writer(file)
+
+    writer.writerow(["Name", "RollNo", "Marks"])
+
+    for i in range(3):
+
+        name = input("Enter student name: ")
+        roll = int(input("Enter roll number: "))
+        marks = float(input("Enter marks: "))
+
+        writer.writerow([name, roll, marks])
+
+    print("Student records saved successfully!")    
